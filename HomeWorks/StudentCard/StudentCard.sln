@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentCard", "StudentCard\StudentCard.csproj", "{16F823B9-1EE3-4635-B13C-E50867EBC548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{9C297E31-2EBC-430E-B4E2-1CDB037B74C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{E57B12D2-4FAF-4CA8-9890-4A3B28F3FC63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F823B9-1EE3-4635-B13C-E50867EBC548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F823B9-1EE3-4635-B13C-E50867EBC548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F823B9-1EE3-4635-B13C-E50867EBC548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F823B9-1EE3-4635-B13C-E50867EBC548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C297E31-2EBC-430E-B4E2-1CDB037B74C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C297E31-2EBC-430E-B4E2-1CDB037B74C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C297E31-2EBC-430E-B4E2-1CDB037B74C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C297E31-2EBC-430E-B4E2-1CDB037B74C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57B12D2-4FAF-4CA8-9890-4A3B28F3FC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57B12D2-4FAF-4CA8-9890-4A3B28F3FC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57B12D2-4FAF-4CA8-9890-4A3B28F3FC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57B12D2-4FAF-4CA8-9890-4A3B28F3FC63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A297F74-1AC1-4CF0-A861-67A170395241}
+	EndGlobalSection
+EndGlobal

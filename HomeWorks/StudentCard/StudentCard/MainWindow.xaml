@@ -1,0 +1,49 @@
+﻿<Window x:Class="StudentCard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        xmlns:local="clr-namespace:StudentCard"
+        mc:Ignorable="d"
+        Title="Карта студента" Height="400" Width="500">
+    <Grid>
+        <materialDesign:Card  Margin="16,16,16,16" >
+            <Grid>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300*"/>
+                    <ColumnDefinition Width="300*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Orientation="Vertical" Grid.Column="0">
+                    <TextBlock TextAlignment="Center" Text="Ф.И.О." Margin="5 15 5 15"/>
+                    <TextBlock TextAlignment="Center" Text="Дата рождения" Margin="5 15 5 15"/>
+                    <TextBlock TextAlignment="Center" Text="Домашний адрес" Margin="5 15 5 15"/>
+                    <TextBlock TextAlignment="Center" Text="Номер телефона" Margin="5 15 5 15"/>
+                    <TextBlock TextAlignment="Center" Text="Наименование группы" Margin="5 15 5 15"/>
+                    <TextBlock TextAlignment="Center" Text="Курс" Margin="5 15 5 15"/>
+                    <TextBlock TextAlignment="Center" Text="Форма обучения" Margin="5 15 5 15"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Grid.Column="1">
+                    <TextBlock Name="nameTextBlock" TextAlignment="Left" Text="" Margin="5 15 5 15"/>
+                    <TextBlock Name="birthdayTextBlock" TextAlignment="Left" Text="" Margin="5 15 5 15"/>
+                    <TextBlock Name="addressTextBlock" TextAlignment="Left" Text="" Margin="5 15 5 15"/>
+                    <TextBlock Name="phoneNumberTextBlock" TextAlignment="Left" Text="" Margin="5 15 5 15"/>
+                    <TextBlock Name="groupTextBlock" TextAlignment="Left" Text="" Margin="5 15 5 15"/>
+                    <TextBlock Name="courseTextBlock" TextAlignment="Left" Text="" Margin="5 15 5 15"/>
+                    <TextBlock Name="studyFormTextBlock" TextAlignment="Left" Text="" Margin="5 15 5 15"/>
+                </StackPanel>
+
+            </Grid>
+        </materialDesign:Card>
+    </Grid>
+</Window>

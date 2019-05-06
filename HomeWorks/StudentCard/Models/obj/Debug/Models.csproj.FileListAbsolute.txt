@@ -1,0 +1,11 @@
+c:\users\андрей\source\repos\StudentCard\Models\bin\Debug\Models.dll
+c:\users\андрей\source\repos\StudentCard\Models\bin\Debug\Models.pdb
+c:\users\андрей\source\repos\StudentCard\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+c:\users\андрей\source\repos\StudentCard\Models\obj\Debug\Models.dll
+c:\users\андрей\source\repos\StudentCard\Models\obj\Debug\Models.pdb
+E:\WPF\HomeWorks\StudentCard\Models\bin\Debug\Models.dll
+E:\WPF\HomeWorks\StudentCard\Models\bin\Debug\Models.pdb
+E:\WPF\HomeWorks\StudentCard\Models\obj\Debug\Models.csprojAssemblyReference.cache
+E:\WPF\HomeWorks\StudentCard\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+E:\WPF\HomeWorks\StudentCard\Models\obj\Debug\Models.dll
+E:\WPF\HomeWorks\StudentCard\Models\obj\Debug\Models.pdb
